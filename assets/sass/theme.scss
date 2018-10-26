@@ -1,0 +1,23 @@
+/*
+ * SASS Theme File
+ * Minnesota State University-Mankato
+ */
+
+$brand-color-1: #480059;
+$brand-color-2: #f7e400;
+$brand-dark-color-1: #24002c;
+$brand-dark-color-2: #baab00;
+
+@font-face {
+    font-family: MainFont;
+    src: url(../fonts/futura.woff);
+}
+@font-face {
+    font-family: MainFont;
+    src: url(../fonts/futura-bold.woff);
+    font-weight: bold;
+}
+@font-face {
+    font-family: MainFontBold;
+    src: url(../fonts/futura-bold.woff);
+}

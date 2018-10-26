@@ -1,0 +1,60 @@
+/*
+    login.css
+*/
+
+//TODO: change this to the imported Assets folder
+@import 'theme';
+
+.view-login {
+    #page-content > .container > .row {
+        display: flex;
+        align-items: center;
+    }
+
+    div#page-content #page-branding img {
+        max-width: 80%;
+    }
+
+    div#page-content #page-welcome img{
+        padding-bottom: 5%;
+        max-width: 100%;
+    }
+
+    div#page-content #page-login {
+        max-width: 350px;
+    }
+
+    div#page-content #page-login input[type=submit] {
+        width: 40%;
+        height: 40px;
+        background-color: $brand-color-2;
+        border: none;
+        color: $brand-color-1;
+        font-weight: bold;
+    }
+
+    @media(min-width: 1200px) {
+        #page-content > .container {
+            width: 75%;
+        }
+    }
+
+    div#page-content #page-login input[type=submit]:disabled {
+        background-color: #666;
+    }
+
+    #loading-spinner-container {
+        float: right;
+    }
+
+    #title-block {
+        color: #fff;
+        border: 3px solid #fff;
+        font-family: MainFontBold;
+        font-size: 1.5em;
+        padding: 0px 8px;
+        margin-bottom: 25px;
+        display:inline-block;
+    }
+    background-image: url('../images/background.jpg');
+}
